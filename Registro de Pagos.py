@@ -1,6 +1,3 @@
-import time 
-import sys
-
 print("_______________________________________________________________________________")
 print('-Para acceder al listado Semanal por favor escriba:      1.')
 time.sleep(2)
@@ -52,6 +49,6 @@ elif orden == "3":
 elif orden == "cerrar" or "c":
     print("Cerrando programa...")
     time.sleep(2)
-    cerrar = sys.exit() #Parametro para cerrar el programa tecleando cer
+    sys.exit() #Parametro para cerrar el programa tecleando cer
 else:
     print("El elemento que ha introducido no existe. Intente nuevamente")
